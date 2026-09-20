@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rev-cleanse"
+version = "0.1.0"
+description = "Deterministic B2B lead de-duplication pipeline with an embedded DuckDB store."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.6",
+    "duckdb>=0.10",
+    "rapidfuzz>=3.6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.6","pytest>=8.0", "mypy>=1.8"]
+
+[project.scripts]
+rev-cleanse = "revcleanse.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["revcleanse"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 135
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]

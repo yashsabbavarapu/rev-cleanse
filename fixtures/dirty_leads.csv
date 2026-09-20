@@ -1,0 +1,19 @@
+row_id,first_name,last_name,email,company_name,website,employee_count,source,timestamp
+r001,Ada,Lovelace,ada@linear.app,"Linear Orbit, Inc.",https://www.app.linear.app:443/pricing?utm_source=ad,120,webform,2026-01-10T09:00:00Z
+r002,Grace,Hopper,  GRACE@Linear.app ,Linear Orbit Inc,https://linear.app?utm=demo,,conference,2026-02-02T11:30:00Z
+r003,Alan,Turing,mailto:alan@linear.app,Linear Orbit Technologies,linear.app/careers,140,import,2026-03-15T08:15:00Z
+r004,Katherine,Johnson,katherine@linear.app,LINEAR ORBIT LLC,,130,outbound,2026-01-05T10:00:00Z
+r005,Marcus,Chen,marcus@ramp.com,Ramp Business Corp,https://www.ramp.com/,500,webform,2026-01-20T12:00:00Z
+r006,Priya,Nair,priya@ramp.com,Ramp Business Corporation,https://ramp.com/about?gclid=xyz123,850,import,2026-04-01T09:45:00Z
+r007,Dev,Patel,dev@ramp.com,Ramp Business Co.,http://blog.ramp.com/post/1,,conference,2026-02-11T16:20:00Z
+r008,Nina,Alvarez,nina@stripe.com,Stripe Inc,https://stripe.com,8000,partner,2026-03-01T09:00:00Z
+r009,Omar,Haddad,omar@squareup.com,Square Ltd,https://squareup.com/us/en,9500,partner,2026-03-02T09:00:00Z
+r010,Sofia,Rossi,sofia@notion.so,"Notion Labs, Inc.",https://www.notion.so/product?utm_campaign=q1,700,webform,2026-02-18T14:00:00Z
+r011,Sofia,Rossi,SOFIA@NOTION.SO,Notion Labs Incorporated,notion.so,,import,2026-02-19T08:00:00Z
+r012,Yuki,Tanaka,yuki@vercel.com,Vercel Technologies,https://portal.vercel.com:8080/login,1200,outbound,2026-01-30T10:10:00Z
+r013,Hana,Kim,hana@vercel.com,Vercel,www.vercel.com,,conference,2026-03-20T11:00:00Z
+r014,Tom,Baker,  tom@datadog.com ,   Datadog Ltd  ,https://www.datadoghq.com/pricing?ref=blog,5000,partner,2026-02-05T13:00:00Z
+r015,Elena,Petrova,elena@figma.com,Figma Inc.,https://figma.com/files,1100,webform,2026-03-11T15:30:00Z
+r016,Raj,Mehta,raj@figma.com,"Figma, Incorporated",https://www.figma.com,1100,import,2026-03-12T09:20:00Z
+r017,Chloe,Dubois,chloe@anthropic.com,Anthropic PBC,https://anthropic.com,,outbound,2026-04-05T07:00:00Z
+r018,Ben,Carter,ben@brexhq.com,Brex Group,,1300,conference,2026-02-22T10:45:00Z
