@@ -1,5 +1,7 @@
 # rev-cleanse
 
+[![CI](https://github.com/yashsabbavarapu/rev-cleanse/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/yashsabbavarapu/rev-cleanse/actions/workflows/ci.yml?query=branch%3Amain)
+
 A standalone CLI that turns a dirty B2B lead export into a clean, de-duplicated
 account/contact graph in an embedded DuckDB database, with a full audit trail
 and strict idempotency.
