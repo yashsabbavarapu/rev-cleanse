@@ -21,8 +21,8 @@ _REQUIRED = {"row_id", "first_name", "last_name", "email", "company_name", "sour
 def load_leads(path: str | Path) -> list[RawLead]:
     """Read the inbound CSV, reporting the offending line on a bad row."""
     try:
-        # noqa justification: the handle is closed by the `with` below; opening
-        # separately is what lets us report a readable error for a bad path.
+        # The handle is closed by the `with` below. Opening it separately is
+        # what lets us report a readable error for an unreadable path.
         handle = Path(path).open(newline="", encoding="utf-8-sig")  # noqa: SIM115
     except OSError as exc:
         raise SystemExit(f"error: cannot read {path}: {exc.strerror}") from exc
